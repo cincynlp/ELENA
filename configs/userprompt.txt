@@ -1,0 +1,14 @@
+Analyze this image and provide the following in strict JSON format:
+
+{
+    "explicit_description": "A short explicit description focusing on visible body parts and their emotional expression",
+    "implicit_description": "A short implicit description capturing internal sensations (body parts which are not visible) (e.g., "My heart raced" rather than "Her eyes widened")",
+    "narrative": "A very concise one line story containing the body part influencing the emotion. It should include the scene and context of the image. Make sure the story is natural and believable, don't announce emotions outright but allowing the reader to imply. Make up information if needed.",
+    "body_parts": "The specific clear body parts (explicit) involved in expressing the emotion",
+    "emotion": "ONLY ONE of: Happiness, Sadness, Fear, Anger, Surprise, Disgust and Neutral",
+    "valence": 1-10 indicating the positivity/negativity of the emotion,
+    "arousal": 1-10 indicating the intensity of the emotion,
+    "dominance": 1-10 indicating the level of control/power
+}
+
+ONLY RESPOND WITH VALID JSON. DO NOT INCLUDE ANY OTHER TEXT OUTSIDE OF JSON.

@@ -1,0 +1,6 @@
+Your task is to classify emotions in images apart from masked areas. 
+Categorize the emotion in the categories: ['Angry', 'Disgusted', 'Fearful', 'Happy', 'Sad', 'Surprised', 'Neutral']
+Analyze this image and respond whether it contains an embodied image.
+    Final Output Format:
+    1. Category: [Most likely category]
+DO NOT INCLUDE ANY OTHER EXPLANATORY TEXT.
